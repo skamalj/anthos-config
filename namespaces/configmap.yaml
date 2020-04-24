@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: nonprod-config
+  name: nonprod-config-global
   annotations:
     configmanagement.gke.io/namespace-selector: noncritical  
 data:
