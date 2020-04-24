@@ -6,4 +6,4 @@ metadata:
     env: prod
   annotations:
     audit: "true"
-    configmanagement.gke.io/cluster-selector: "selector-az"
+    configmanagement.gke.io/cluster-selector: "selector-azure"
