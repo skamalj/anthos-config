@@ -3,7 +3,7 @@ kind: Namespace
 metadata:
   name: shipping-preprod
   labels:
-    env: prod
+    env: dev
   annotations:
     audit: "true"
     configmanagement.gke.io/cluster-selector: "selector-azure"
