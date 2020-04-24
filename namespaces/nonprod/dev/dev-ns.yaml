@@ -1,9 +1,8 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: shipping-prod
+  name: dev
   labels:
-    env: prod
+    env: nonprod
   annotations:
-    audit: "true"
     configmanagement.gke.io/cluster-selector: "selector-google"

@@ -1,8 +1,8 @@
 kind: NamespaceSelector
 apiVersion: configmanagement.gke.io/v1
 metadata:
-  name: critical
+  name: noncritical
 spec:
   selector:
     matchLabels:
-      env: prod
+      env: nonprod

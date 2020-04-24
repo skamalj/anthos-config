@@ -1,9 +1,8 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: shipping-preprod
+  name: preprod
   labels:
-    env: dev
+    env: nonprod
   annotations:
-    audit: "true"
     configmanagement.gke.io/cluster-selector: "selector-azure"
