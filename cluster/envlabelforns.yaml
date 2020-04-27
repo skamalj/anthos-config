@@ -3,7 +3,7 @@ kind: K8sRequiredLabels
 metadata:
   name: ns-must-have-env
   annotations:
-    configmanagement.gke.io/cluster-selector: "selector-somelabel"
+    configmanagement.gke.io/cluster-selector: "selector-google2"
 spec:
   match:
     kinds:
