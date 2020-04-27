@@ -3,6 +3,6 @@ kind: Namespace
 metadata:
   name: e2e
   labels:
-    mylabel: nonprod
+    env: nonprod
   annotations:
     configmanagement.gke.io/cluster-selector: "selector-google"
