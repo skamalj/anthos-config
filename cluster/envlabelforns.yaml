@@ -2,6 +2,8 @@ apiVersion: constraints.gatekeeper.sh/v1beta1
 kind: K8sRequiredLabels
 metadata:
   name: ns-must-have-env
+  annotations:
+    configmanagement.gke.io/cluster-selector: "selector-somelabel"
 spec:
   match:
     kinds:
