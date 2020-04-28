@@ -1,0 +1,6 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: config-tree
+data:
+   value: "This goes to tree"
