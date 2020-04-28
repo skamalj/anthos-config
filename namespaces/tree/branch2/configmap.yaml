@@ -1,0 +1,6 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: config-leaf
+data:
+   value: "This goes to leaves"
