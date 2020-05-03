@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: just-one-
+  annotations:
+    configmanagement.gke.io/namespace-selector: noncritical
+spec:
+  hard:
+    pods: "1"
