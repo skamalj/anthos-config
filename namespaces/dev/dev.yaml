@@ -1,8 +1,8 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: nsa
+  name: dev
   labels:
     env: nonprod
   annotations:
-    configmanagement.gke.io/cluster-selector: "selector-google2"
+    configmanagement.gke.io/cluster-selector: "selector-google2"  
