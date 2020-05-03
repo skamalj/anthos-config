@@ -3,7 +3,7 @@ kind: ResourceQuota
 metadata:
   name: just-one-pod
   annotations:
-    configmanagement.gke.io/namespace-selector: noncritical
+    configmanagement.gke.io/namespace-selector: critical
 spec:
   hard:
     pods: "1"
