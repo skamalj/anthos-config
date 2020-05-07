@@ -5,4 +5,4 @@ metadata:
   labels:
     env: prod
   annotations:
-    configmanagement.gke.io/cluster-selector: "selector-google2"
+    configmanagement.gke.io/cluster-selector: "selector-azure"
